@@ -1,0 +1,59 @@
+# Dataset files (too large for GitHub)
+data/
+*.zip
+*.tar.gz
+*.7z
+*.jpg
+*.jpeg
+*.png
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+!notebooks/*.ipynb  # Keep notebooks folder but still ignore checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.pt
+*.pth
+models/
+
+# Results (optional - comment out if you want to commit results)
+results/
+!results/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# Kaggle API credentials
+.kaggle/
+kaggle.json

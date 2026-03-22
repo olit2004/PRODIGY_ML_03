@@ -1,0 +1,16 @@
+dogs-vs-cats-svm/
+├── README.md               # Project overview, approach, results
+├── requirements.txt        # Python dependencies
+├── data/                   # (gitignored) dataset symlink or instructions
+├── notebooks/
+│   └── 01_eda_baseline.ipynb   # Explore data, simple feature extraction
+│   └── 02_svm_hog.ipynb        # SVM with HOG features
+│   └── 03_svm_cnn_features.ipynb  # SVM on CNN features
+├── src/
+│   ├── extract_features.py  # Reusable feature extraction
+│   ├── train_svm.py         # Training script
+│   └── predict.py           # Generate test predictions
+├── results/
+│   ├── confusion_matrix.png
+│   └── submission.csv
+└── .gitignore
